@@ -1,16 +1,19 @@
 # webchallenger
 
-A new Flutter project.
+# bibliotecas usadas:
+Dio: para requisicoes http
+Get_it: Injeção de dependencia
+Either_dart: Para um melhor tratamento de retorno das funções
+File Picker: para abrir os arquivos do computador.
 
-## Getting Started
+# Lógica por trás da arquitetura:
+Escolhi uma arquitetura MVC, pelo tamanho da aplicação ser pequena, e não gerar códigos desnecessarios.
+Utilizei o design patter repository para chamadas de API
+Utilizei o padrão service para isolar pequenas partes de codigo.
 
-This project is a starting point for a Flutter application.
 
-A few resources to get you started if this is your first Flutter project:
+# Gerenciamento de estado: 
+Explorei o gerenciamento nativo, nesse caso o ValueNotifier, basico e eficiente.
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+
